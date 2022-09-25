@@ -1,0 +1,94 @@
+# Tableau Data Visualization
+This is to keep track of important notation of data science/visualization tools and methods.
+Here is a Data Science Workflow Chart: 
+in this example six different components
+0:30
+and this is going to be different you
+0:31
+know depending on what type of
+0:32
+environment you're working in but
+0:34
+generally you're going to have
+0:35
+the data collection data exploration
+0:39
+through the data wrangling
+0:41
+data munching stage where you have to
+0:42
+pull everything together and clean it
+0:44
+for modeling
+0:45
+and then the next step would be
+0:47
+modeling
+0:48
+validation and then reporting
+0:51
+so
+0:52
+the way i use tableau primarily is
+0:57
+in the exploration phase and then in the
+0:59
+reporting phase so expiration i want to
+1:02
+basically be able to look at the data
+1:04
+once i collect it i want to be able to
+1:06
+look
+1:07
+at the different variables that exist i
+1:09
+want to see
+1:10
+you know how the data is
+1:13
+um
+1:15
+distributed for example for each
+1:16
+variable i want to see if there's any
+1:18
+outliers or anything like that that i
+1:20
+want to kick out
+1:21
+from
+1:23
+the uh the modeling because you know if
+1:25
+you feed bad data into this model
+you're going to get some
+you know your garbage in garbage out so
+being able to explore the data
+i find is is really helpful
+and sometimes that's really all you need
+to know if you should move forward or
+not you know if
+you're trying to look to see if there's
+some kind of a relationship between
+variables sometimes a quick exploration and tableau a nice visual will help give you that and then also in the reporting side so once you've built your model you validated it and you want to be able to share your results with others tableau is also you know ideal for that they have great reporting tools
+it doesn't matter really what kind of organization you're in you you can pass you know if you have tableau server or not you can you can pass your workbooks on to others.
+
+
+<img src=https://miro.medium.com/max/1400/0*-fmFL32Tne6JiFpz.png>
+
+
+__Actions__ returns the final result of RDD computations. It triggers execution using lineage graph to load the original RDD, carry out int. steps, and return final results to Driver Program or write to file system.
+
+Actions are opertations that produce non-RDD values. (First(), Take(), Reduce(), Collect(), count())
+
+
+### Limitations of RDD
+__No Built in Optimization Engine__ (other data structures can utilize catalyst opt. and Tungsten exec. engine)
+__Don't Infer Schema__ (requires users specification of each dtype)
+__JVM Objects__ Have JVM overhead, Garbage Collection and Java Serialization.
+
+
+# Spark Documentation
+[link](https://spark.apache.org/docs/latest/rdd-programming-guide.html#using-the-shell)
+
