@@ -1,0 +1,151 @@
+# Tableau
+well so what is tableau
+so we kind of covered it briefly in the
+last slide but it's just a business
+intelligence slash data visualization
+tool that allows you to make sense of
+your data
+really by by looking at it
+right i mean
+sometimes we're we're looking at
+millions of rows of data you could check
+maybe the first hundred or
+you know first few thousand and look at
+the data but that's really not efficient
+and it's really not
+it's really not feasible these days to
+be able to
+just look at the data and figure out
+what's going on with big data and
+there's millions tens of millions of
+rows billions of rows potentially
+and being able to throw this stuff
+quickly into
+a tool like tableau and look at it
+really really helps a lot
+so here you have tableau desktop and
+then the server version so that we're
+going to be using the desktop version
+today specifically
+tableau public which is free you can
+download it for free from their website
+and that's just the software that you
+download to your computer and then the
+server version actually
+is within the browser you can create
+charts and dashboards and then upload
+that to the server for consumption
+throughout your organization
+so
+the interface here for tableau desktop
+is is really just drag and drop it
+reminds me of a pivot table in excel so
+you drag you know the columns and rows
+around to get what you want
+and and the way that this works is these
+are the fields here
+um and it's broken down into dimensions
+and measures so a dimension i think of a
+dimension as basically a category or a
+categorical variable
+and then a measure is a numerical value
+so it could be the number of records it
+could be any number of things
+and then here you have
+a filter you can apply a filter here
+and i'll show you how to use this
+section later the filter in the mark
+section
+but moving over here here's where you
+placed your columns and rows
+so if i want to basically
+show in column form i want to be able to
+let's just say pull in current status
+here
+to the columns and then number of
+records to the row then it would give me
+the current status categories along the
+x-axis and then the volumes
+for that category along the y-axis here
+so we're going to go over this
+with the live demo here but just want to
+give you a brief introduction to the
+interface
+and and how it's set up
+and this is the end result you know once
+you're able to make a few charts you
+could pull it together and make a
+dashboard like this for example
+so now we're going to go ahead and
+download tableau public i've just
+googled tableau public here
+and you're gonna have to put in your
+your email address here to
+download the app
+go ahead and put mine in there
+and download it
+may take a while
+depending on your internet speed
+but it's generally pretty quick
+so go ahead and install that on your
+computer
+i'm going to fast forward the video here
+so that
+you don't have to watch this entire
+install but feel free to
+pause the video and
+hit play again when you're
+ready to go
+okay so now i've downloaded tableau
+public
+i have
+the shortcut here was installed on my
+desktop
+and here we needed to connect to a file
+so it gives you several options here
+excel text json access pdf spatial or
+statistical file
+and the difference between the tableau
+public version and the tableau desktop
+which is the paid version it's about 850
+dollars is that you're you're limited to
+just a handful of inputs here
+hand just a handful of file types um the
+desktop version really has has more
+options here and you can you know you
+can connect to a server like
+um
+azure or
+any sort of cloud environment so aws
+azure or google cloud and pull your data
+in directly from there here
+so we need to go ahead and get our data
+set and the data set i'm going to use
+for this tutorial
+is the titanic data set from kaggle
+and i'll include links to tableau public
+and this data set
+in the
+video description you'll just click on
+that
+and you'll probably have to
+sign up if you don't have a kaggle
+account
+already and basically what this is is
+kaggle is is essentially just
+sort of the online olympics for data
+nerds
+you you have competitions for machine
+learning deep learning models
+companies can actually
+post their
+their data sets on
+kaggle and have
+basically the best data scientists in
+the world compete
+to build the best model and the winner
+can actually earn money so it's pretty
+cool
+so we're gonna go ahead and i've already
+got an account so i'm gonna sign in here
+and once you're logged in you can go to the data tab here and then we're gonna actually use train dot csv let's go ahead and download that i'm just going to go ahead and move that to my desktop
